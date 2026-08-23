@@ -27,7 +27,7 @@ export default defineConfig({
     }),
   ],
   server: {
-    allowedHosts: ['goliath'],
+    allowedHosts: true,
     port: 10939,
     strictPort: true,
     host: true,
