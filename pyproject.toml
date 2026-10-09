@@ -50,7 +50,7 @@ dev = [
     "mypy>=1.8.0,<2.0.0",
     "pre-commit>=3.6.0",
     "pyinstaller>=6.22.2",
-    "pywin32>=311",
+    "pywin32>=311; sys_platform == 'win32'",
 ]
 
 [project.scripts]
